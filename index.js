@@ -1,6 +1,8 @@
 let express = require('express');
 let app = express();
 let ejs = require('ejs');
+
+// load the data
 const haikus = require('./haikus.json');
 const port = process.env.PORT || 3000;
 
